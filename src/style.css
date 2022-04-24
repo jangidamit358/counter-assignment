@@ -1,0 +1,75 @@
+h1, p {
+  font-family: Lato;
+}
+#container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+#mainBox{
+  /* border: 1px solid red; */
+ 
+  display: flex;
+}
+.Box{
+  border:1px solid #B24242 ;
+  width: 60px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 21px;
+
+}
+
+#Box1{
+border-right:none ;
+border-radius: 8px 0px 0px 8px;
+background-color: white;
+color: #B24242;
+}
+#Box1:hover{
+cursor: pointer;
+}
+/* #Box2{
+  border-right:none ;
+  background-color: #FBE8E8;
+} */
+#Box3{
+  border-radius: 0px 8px 8px 0px;
+color: white;
+  background-color: #B24242;
+}
+#Box3:hover{
+  cursor: pointer;
+  }
+input{
+ 
+  text-align: center;
+  border-right:none ;
+  background-color: #FBE8E8;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#loader{
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-left: 2px;
+}
+#loaderText{
+margin:0px;
+padding-left: 10px;
+}
+#showResult{
+margin:10px 0px 0px 2px ;
+font-weight: 500;
+font-size: 12px;
+}
